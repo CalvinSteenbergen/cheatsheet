@@ -1,7 +1,7 @@
 ## Installeer Apache
 ```bash
 sudo dnf install httpd -y
-sudo firewall-cmd --runtime-to-permanent --add-service=http
+sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 ```
 ## /etc/httpd/conf.d/www.bmc.test.conf

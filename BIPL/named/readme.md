@@ -50,7 +50,7 @@ $TTL 5M
 ```
 ## Firewall rule
 ```bash
-sudo firewall-cmd --runtime-to-permanent --add-service=dns
+sudo firewall-cmd --permanent --add-service=dns
 sudo firewall-cmd --reload
 ```
 ## DNS test
